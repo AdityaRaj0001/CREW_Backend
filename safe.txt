@@ -1,0 +1,60 @@
+  <img
+            class="fullimg"
+            src="https://res.cloudinary.com/dvc9k0yjr/image/upload/v1711603053/Group_10000026172_ol9ttq.png"
+            style="width: 100%"
+          />
+
+
+
+           <h1
+            style="
+              color: #ebfe54;
+              width: 90%;
+              font-size: 2rem;
+              padding-left: 12px;
+              text-align: left;
+            "
+          >
+            Greetings,
+          </h1>
+          <p
+            style="
+              color: white;
+              width: 90%;
+              font-size: 1.3rem;
+              padding-left: 12px;
+              text-align: left;
+            "
+          >
+            Thank you for levelling up your interest in
+            <span style="color: #ebfe54">CREW</span> and opting to receive email
+            updates. Your decision to join our quest for epic gaming.
+            experiences fills us with excitement and determination!
+          </p>
+          <p
+            style="
+              color: white;
+              width: 90%;
+              font-size: 1.3rem;
+              padding-left: 12px;
+              text-align: left;
+            "
+          >
+          Feel free to channel your inner gamer
+          and share your thoughts, ideas, or
+          battle cries with us. We're here to
+          ensure that your journey with <span style="color: #ebfe54">CREW</span>
+          is nothing short of legendary!
+          </p>
+          <p
+            style="
+              color: white;
+              width: 90%;
+              font-size: 1.3rem;
+              padding-left: 12px;
+              text-align: left;
+            "
+          >
+          Thank you once again for choosing
+          to be part of our <span style="color: #ebfe54">CREW</span>.
+          </p>
