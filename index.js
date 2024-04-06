@@ -53,29 +53,79 @@ app.post("/sendmail", (req, res) => {
       >
         <div
           class="container"
-          style="width: 100vw; margin: auto;margin-top: 1rem; max-width: 800px; min-height: 100vh;padding-bottom: 4rem;"
+          style="
+            width: 100vw;
+            margin: auto;
+            max-width: 800px;
+            min-height: 100vh;
+            padding-bottom: 4rem;
+            text-align: center;
+          "
         >
           <img
             class="fullimg"
             src="https://res.cloudinary.com/dvc9k0yjr/image/upload/v1711603051/l2_wzjw6o.png"
-            style="width: 100%;margin-bottom: 0.5rem;"
+            style="width: 96%; margin-bottom: 0.2rem"
           />
-          
+    
           <img
             class="fullimg"
             src="https://res.cloudinary.com/dvc9k0yjr/image/upload/v1711603051/llll22_lmd2hp.png"
-            style="width: 100%"
+            style="width: 96%"
           />
           <div class="fulldiv" style="width: 100%; height: auto">
-            <h1 style="color: #ebfe54; width: 90%; font-size: 2rem;padding-left: 12px;">Dear User</h1>
-            <p style="color: white; width: 90%; font-size: 1.5rem;padding-left: 12px;">
-              We wanted to take a moment to express our deepest gratitude for your
-              continuous support and for being an integral part of the Crew A
-              community. Your enthusiasm and engagement have been truly inspiring,
-              and we are incredibly grateful to have you as a member of our gaming
-              platform.
-            </p>
-        
+            <h1
+                style="
+                  color: #ebfe54;
+                  width: 90%;
+                  font-size: 2rem;
+                  padding-left: 24px;
+                  text-align: left;
+                "
+              >
+                Greetings,
+              </h1>
+              <p
+                style="
+                  color: white;
+                  width: 90%;
+                  font-size: 1.3rem;
+                  padding-left: 24px;
+                  text-align: left;
+                "
+              >
+                Thank you for levelling up your interest in
+                <span style="color: #ebfe54">CREW</span> and opting to receive email
+                updates. Your decision to join our quest for epic gaming.
+                experiences fills us with excitement and determination!
+              </p>
+              <p
+                style="
+                  color: white;
+                  width: 90%;
+                  font-size: 1.3rem;
+                  padding-left: 24px;
+                  text-align: left;
+                "
+              >
+              Feel free to channel your inner gamer
+              and share your thoughts, ideas, or
+              battle cries with us. We're here to
+              ensure that your journey with <span style="color: #ebfe54">CREW</span>
+              is nothing short of legendary!
+              </p>
+              <p
+                style="
+                  color: white;
+                  width: 90%;
+                  font-size: 1.3rem;
+                  padding-left: 24px;
+                  text-align: left;
+                "
+              >
+              Thank you once again for choosing
+              to be part of our <span style="color: #ebfe54">CREW</span>.
+              </p>
           </div>
           <div
             class="fulldiv hugImagediv"
@@ -86,19 +136,46 @@ app.post("/sendmail", (req, res) => {
               src="https://res.cloudinary.com/dvc9k0yjr/image/upload/v1711603053/Group_10000026172_ol9ttq.png"
               style="height: 100%"
             />
-           
           </div>
           <div
-            class="fulldiv"
-            style="width: 100%;margin-top: 2rem; background-color: white; height: auto;padding-bottom: 2rem;"
-          ><a href="https://www.crewtm.com/" style="height: auto; width: 100%;" target="_blank">
+            class="fulldiv hugImagediv"
+            style="width: 100%; height: auto; text-align: center"
+          >
             <img
-            class="fullimg"
-            src="https://res.cloudinary.com/dvc9k0yjr/image/upload/v1711603050/logoooooo_vkntei.png"
-            style="width: 100%"
-          />
-          </a>
-           
+              class="fullimg"
+              src="https://res.cloudinary.com/dvc9k0yjr/image/upload/v1711472310/dsadasdasdas_2_vxugu0.png"
+              style="width: 100%"
+            />
+          </div>
+          <!-- <img
+          class="fullimg"
+          src="https://res.cloudinary.com/dvc9k0yjr/image/upload/v1711472310/dsadasdasdas_2_vxugu0.png"
+          style="width: 100%;height"
+        /> -->
+          <div
+            class="fulldiv"
+            style="
+              width: 100%;
+              margin-top: 2rem;
+              position: relative;
+              height: auto;
+              padding-bottom: 2rem;
+              overflow: hidden;
+            "
+          >
+          <img src="https://res.cloudinary.com/dvc9k0yjr/image/upload/v1712414735/Plain_White_Bg_gzviwd.png" style="position: absolute;z-index: -1; top:0; object-fit: cover; height: 100%;">
+            <a
+              href="https://www.crewtm.com/"
+              style="height: auto; width: 100%"
+              target="_blank"
+            >
+              <img
+                class="fullimg"
+                src="https://res.cloudinary.com/dvc9k0yjr/image/upload/v1712420674/footer_1x_hctvhm.webp"
+                style="width: 100%"
+              />
+            </a>
+    
             <p
               style="
                 width: 100%;
@@ -135,18 +212,51 @@ app.post("/sendmail", (req, res) => {
                     style="height: 30px"
                     title="Youtube" /></a
               ></span>
-     
             </p>
-            <div style="width: 80%; margin:auto; height: 80px; border-top: 1px dashed gray;"></div>
-            <p style="text-align: center; width: 100%; font-size: 1rem; margin-bottom: 2px;color: rgb(169, 167, 167);">Where to find us</p>
-            <p style="text-align: center; width: 100%; font-size: 0.9rem;margin-top: 2px;"><a href="https://www.crewtm.com/" target="_blank">www.crewtm.com</a></p>
-        
-            <p style="text-align: center; width: 100%; font-size: 0.8rem;margin-top: 24px; color: gray;">SKDIV © All rights reserved 2024</p>
-          
+            <div
+              style="
+                width: 80%;
+                margin: auto;
+                height: 80px;
+                border-top: 1px dashed gray;
+              "
+            ></div>
+            <p
+              style="
+                text-align: center;
+                width: 100%;
+                font-size: 1rem;
+                margin-bottom: 2px;
+                color: rgb(169, 167, 167);
+              "
+            >
+              Where to find us
+            </p>
+            <p
+              style="
+                text-align: center;
+                width: 100%;
+                font-size: 0.9rem;
+                margin-top: 2px;
+              "
+            >
+              <a href="https://www.crewtm.com/" target="_blank">www.crewtm.com</a>
+            </p>
+    
+            <p
+              style="
+                text-align: center;
+                width: 100%;
+                font-size: 0.8rem;
+                margin-top: 24px;
+                color: gray;
+              "
+            >
+              SKDIV © All rights reserved 2024
+            </p>
           </div>
         </div>
       </body>
-    
     </html>
     `,
   };
