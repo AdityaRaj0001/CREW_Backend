@@ -170,8 +170,8 @@ app.post("/sendmail", (req, res) => {
             >
               <img
                 class="fullimg"
-                src="https://res.cloudinary.com/dvc9k0yjr/image/upload/v1712420674/footer_1x_hctvhm.webp"
-                style="width: 100%"
+                src="https://res.cloudinary.com/dvc9k0yjr/image/upload/v1712456483/WHITELOGOCREWSVG_zpcbb6.svg"
+                style="height: 30px"
               />
             </a>
     
