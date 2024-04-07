@@ -166,8 +166,8 @@ app.post("/sendmail", (req, res) => {
             >
               <img
                 class="fullimg"
-                src="https://res.cloudinary.com/dvc9k0yjr/image/upload/v1712420170/logo_svg_4x_jlo2r8.svg"
-                style="height: 30px;margin-top: 1rem;"
+                src="https://res.cloudinary.com/dvc9k0yjr/image/upload/v1712458312/output-onlinepngtools_ttkvwi.png"
+                style="height: 60px;margin-top: 1rem;"
               />
             </a>
     
