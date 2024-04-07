@@ -2,9 +2,8 @@ const express = require("express");
 const dotenv = require("dotenv");
 const nodemailer = require("nodemailer");
 const cors = require("cors");
-const fs = require('fs');
+const fs = require("fs");
 require("dotenv").config();
-
 
 const app = express();
 const port = 3000;
@@ -18,7 +17,8 @@ app.get("/", (req, res) => {
 
 app.post("/sendmail", (req, res) => {
   let transport = nodemailer.createTransport({
-    service: "gmail",
+    host: "host:smtp.hostinger.com",
+    port: 465,
     auth: {
       user: process.env.EMAIL_USERNAME,
       pass: process.env.EMAIL_PASSWORD,
@@ -30,7 +30,7 @@ app.post("/sendmail", (req, res) => {
     from: process.env.EMAIL_USERNAME,
     to: recipient,
     subject: "Confirmation of Registration - CREW",
-    html:`<!DOCTYPE html>
+    html: `<!DOCTYPE html>
     <html lang="en">
       <head>
         <meta charset="UTF-8" />
