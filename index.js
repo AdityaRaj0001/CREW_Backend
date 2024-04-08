@@ -30,7 +30,7 @@ app.post("/sendmail", (req, res) => {
   let from = "CREW";
 
   const mailOptions = {
-    from: from,
+    from: process.env.EMAIL_USERNAME,
     to: recipient,
     subject: "Confirmation of Registration - CREW",
     html: `<!DOCTYPE html>
