@@ -27,9 +27,10 @@ let transport = nodemailer.createTransport({
 app.post("/sendmail", (req, res) => {
 
   let recipient = req.body.recipient;
+  let from = "CREW";
 
   const mailOptions = {
-    from: process.env.EMAIL_USERNAME,
+    from: from,
     to: recipient,
     subject: "Confirmation of Registration - CREW",
     html: `<!DOCTYPE html>
