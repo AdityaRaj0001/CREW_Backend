@@ -99,8 +99,7 @@ app.post("/sendmail", (req, res) => {
               >
                 Thank you for levelling up your interest in
                 <span style="color: #ebfe54">CREW</span> and opting to receive email
-                updates. Your decision to join our quest for epic gaming.
-                experiences fills us with excitement and determination!
+                updates. Your decision to join our quest for epic gaming experiences fills us with excitement and determination!
               </p>
               <p
                 style="
