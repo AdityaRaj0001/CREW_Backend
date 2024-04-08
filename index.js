@@ -61,6 +61,7 @@ app.post("/sendmail", (req, res) => {
             max-width: 800px;
             min-height: 100vh;
             padding-bottom: 4rem;
+            padding-top: 0.4rem;
             text-align: center;
           "
         >
@@ -129,16 +130,7 @@ app.post("/sendmail", (req, res) => {
               to be part of our <span style="color: #ebfe54">CREW</span>.
               </p>
           </div>
-          <div
-            class="fulldiv hugImagediv"
-            style="width: 100%; height: 250px; text-align: center"
-          >
-            <img
-              class="fullimg"
-              src="https://res.cloudinary.com/dvc9k0yjr/image/upload/v1711603053/Group_10000026172_ol9ttq.png"
-              style="height: 100%"
-            />
-          </div>
+         
           <div
             class="fulldiv hugImagediv"
             style="width: 100%; height: auto; text-align: center"
@@ -163,13 +155,13 @@ app.post("/sendmail", (req, res) => {
           >
             <a
               href="https://www.crewtm.com/"
-              style="height: auto; width: 100%"
+              style="height: 50px; width: 100%"
               target="_blank"
             >
               <img
                 class="fullimg"
                 src="https://res.cloudinary.com/dvc9k0yjr/image/upload/v1712458312/output-onlinepngtools_ttkvwi.png"
-                style="height: 60px;margin-top: 1rem;"
+                style="width:100%;height:100%;margin-top: 1rem;"
               />
             </a>
     
@@ -190,7 +182,7 @@ app.post("/sendmail", (req, res) => {
                   ><img
                     alt="Instagram"
                     src="https://res.cloudinary.com/dvc9k0yjr/image/upload/v1711603051/instagram2x_ndcze7.png"
-                    style="height: 30px"
+                    style="height: 30px;margin-left: 5px;margin-right: 2px;"
                     title="Instagram" /></a
               ></span>
               <span
@@ -198,7 +190,7 @@ app.post("/sendmail", (req, res) => {
                   ><img
                     alt="LinkedIn"
                     src="https://res.cloudinary.com/dvc9k0yjr/image/upload/v1711603050/linkedin2x_u0q8mg.png"
-                    style="height: 30px"
+                    style="height: 30px;margin-left: 5px;margin-right: 2px;"
                     title="LinkedIn" /></a
               ></span>
               <span
@@ -206,7 +198,7 @@ app.post("/sendmail", (req, res) => {
                   ><img
                     alt="Youtube"
                     src="https://res.cloudinary.com/dvc9k0yjr/image/upload/v1711603050/youtube2x_n9kfgg.png"
-                    style="height: 30px"
+                    style="height: 30px;margin-left: 5px;margin-right: 2px;"
                     title="Youtube" /></a
               ></span>
             </p>
