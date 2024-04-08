@@ -256,6 +256,7 @@ app.post("/sendmail", (req, res) => {
     `,
   };
 
+
   transport.sendMail(mailOptions, function (err, info) {
     if (err) {
       console.log(err);
@@ -265,6 +266,7 @@ app.post("/sendmail", (req, res) => {
     }
   });
 });
+
 
 app.listen(port, () => {
   console.log(`app listening on port ${port}`);
