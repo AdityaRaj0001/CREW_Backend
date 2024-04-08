@@ -14,16 +14,18 @@ app.use(cors());
 app.get("/", (req, res) => {
   res.send("Hello World!");
 });
+let transport = nodemailer.createTransport({
+  host: "smtp.hostinger.com",
+  port: 465,
+  auth: {
+    user: process.env.EMAIL_USERNAME,
+    pass: process.env.EMAIL_PASSWORD,
+  },
+});
+
 
 app.post("/sendmail", (req, res) => {
-  let transport = nodemailer.createTransport({
-    host: "host:smtp.hostinger.com",
-    port: 465,
-    auth: {
-      user: process.env.EMAIL_USERNAME,
-      pass: process.env.EMAIL_PASSWORD,
-    },
-  });
+
   let recipient = req.body.recipient;
 
   const mailOptions = {
@@ -266,6 +268,13 @@ app.post("/sendmail", (req, res) => {
     }
   });
 });
+// transport.verify(function(error, success) {
+//   if (error) {
+//        console.log(error);
+//   } else {
+//        console.log('Server is ready to take our messages');
+//   }
+// });
 
 
 app.listen(port, () => {
