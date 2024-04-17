@@ -99,7 +99,8 @@ app.post("/sendmail", (req, res) => {
               >
                 Thank you for levelling up your interest in
                 <span style="color: #ebfe54">CREW</span> and opting to receive email
-                updates. Your decision to join our quest for epic gaming experiences fills us with excitement and determination!
+                updates. Your decision to join our quest for epic gaming.
+                experiences fills us with excitement and determination!
               </p>
               <p
                 style="
@@ -185,7 +186,7 @@ app.post("/sendmail", (req, res) => {
                     title="Instagram" /></a
               ></span>
               <span
-                ><a href="" target="_blank"
+                ><a href="https://www.linkedin.com/company/crewtm" target="_blank"
                   ><img
                     alt="LinkedIn"
                     src="https://res.cloudinary.com/dvc9k0yjr/image/upload/v1711603050/linkedin2x_u0q8mg.png"
